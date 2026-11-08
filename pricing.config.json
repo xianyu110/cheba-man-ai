@@ -1,0 +1,50 @@
+{
+  "source": "Display mirror of the live cheba-man Worker checkout catalog (pricingCatalog) and creditsForResolution. Does not charge cards or grant credits. 480p costs 50 credits; every other resolution, including 720p, costs 100.",
+  "currency": "usd",
+  "resolutionCredits": {
+    "480p": 50,
+    "720p": 100
+  },
+  "packs": [
+    {
+      "id": "pack_480",
+      "name": "1 Standard (480p)",
+      "priceUsd": 6.9,
+      "credits": 50,
+      "resolution": "480p",
+      "videos": 1
+    },
+    {
+      "id": "pack_1",
+      "name": "1 HD (720p)",
+      "priceUsd": 9.9,
+      "credits": 100,
+      "resolution": "720p",
+      "videos": 1
+    },
+    {
+      "id": "pack_2",
+      "name": "2 HD (720p)",
+      "priceUsd": 16.9,
+      "credits": 200,
+      "resolution": "720p",
+      "videos": 2
+    },
+    {
+      "id": "pack_3",
+      "name": "3 HD (720p)",
+      "priceUsd": 22.9,
+      "credits": 300,
+      "resolution": "720p",
+      "videos": 3
+    },
+    {
+      "id": "pack_8",
+      "name": "8 HD (720p)",
+      "priceUsd": 49.9,
+      "credits": 800,
+      "resolution": "720p",
+      "videos": 8
+    }
+  ]
+}
